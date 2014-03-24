@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B662D4F318DFC8530076BB0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B662D4F218DFC8530076BB0E /* Foundation.framework */; };
+		B662D4F518DFC8530076BB0E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B662D4F418DFC8530076BB0E /* CoreGraphics.framework */; };
+		B662D4F718DFC8530076BB0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B662D4F618DFC8530076BB0E /* UIKit.framework */; };
+		B662D4FD18DFC8530076BB0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B662D4FB18DFC8530076BB0E /* InfoPlist.strings */; };
+		B662D4FF18DFC8530076BB0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B662D4FE18DFC8530076BB0E /* main.m */; };
+		B662D50318DFC8530076BB0E /* BTCDonationViewControllerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B662D50218DFC8530076BB0E /* BTCDonationViewControllerAppDelegate.m */; };
+		B662D50518DFC8530076BB0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B662D50418DFC8530076BB0E /* Images.xcassets */; };
+		B662D50C18DFC8530076BB0E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B662D50B18DFC8530076BB0E /* XCTest.framework */; };
+		B662D50D18DFC8530076BB0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B662D4F218DFC8530076BB0E /* Foundation.framework */; };
+		B662D50E18DFC8530076BB0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B662D4F618DFC8530076BB0E /* UIKit.framework */; };
+		B662D51618DFC8530076BB0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B662D51418DFC8530076BB0E /* InfoPlist.strings */; };
+		B662D51818DFC8530076BB0E /* Donation_Controller_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B662D51718DFC8530076BB0E /* Donation_Controller_DemoTests.m */; };
+		B662D52418DFC8A90076BB0E /* BTCDonationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B662D52218DFC8A90076BB0E /* BTCDonationViewController.m */; };
+		B662D52518DFC8A90076BB0E /* BTCDonationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B662D52318DFC8A90076BB0E /* BTCDonationViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B662D50F18DFC8530076BB0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B662D4E718DFC8530076BB0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B662D4EE18DFC8530076BB0E;
+			remoteInfo = "Donation Controller Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B662D4EF18DFC8530076BB0E /* Donation Controller Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Donation Controller Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B662D4F218DFC8530076BB0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B662D4F418DFC8530076BB0E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B662D4F618DFC8530076BB0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B662D4FA18DFC8530076BB0E /* Donation Controller Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Donation Controller Demo-Info.plist"; sourceTree = "<group>"; };
+		B662D4FC18DFC8530076BB0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B662D4FE18DFC8530076BB0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B662D50018DFC8530076BB0E /* Donation Controller Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Donation Controller Demo-Prefix.pch"; sourceTree = "<group>"; };
+		B662D50118DFC8530076BB0E /* BTCDonationViewControllerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTCDonationViewControllerAppDelegate.h; sourceTree = "<group>"; };
+		B662D50218DFC8530076BB0E /* BTCDonationViewControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTCDonationViewControllerAppDelegate.m; sourceTree = "<group>"; };
+		B662D50418DFC8530076BB0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B662D50A18DFC8530076BB0E /* Donation Controller DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Donation Controller DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B662D50B18DFC8530076BB0E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B662D51318DFC8530076BB0E /* Donation Controller DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Donation Controller DemoTests-Info.plist"; sourceTree = "<group>"; };
+		B662D51518DFC8530076BB0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B662D51718DFC8530076BB0E /* Donation_Controller_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Donation_Controller_DemoTests.m; sourceTree = "<group>"; };
+		B662D52118DFC8A90076BB0E /* BTCDonationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTCDonationViewController.h; path = ../../Classes/BTCDonationViewController.h; sourceTree = "<group>"; };
+		B662D52218DFC8A90076BB0E /* BTCDonationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTCDonationViewController.m; path = ../../Classes/BTCDonationViewController.m; sourceTree = "<group>"; };
+		B662D52318DFC8A90076BB0E /* BTCDonationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BTCDonationViewController.xib; path = ../../Classes/BTCDonationViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B662D4EC18DFC8530076BB0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B662D4F518DFC8530076BB0E /* CoreGraphics.framework in Frameworks */,
+				B662D4F718DFC8530076BB0E /* UIKit.framework in Frameworks */,
+				B662D4F318DFC8530076BB0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B662D50718DFC8530076BB0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B662D50C18DFC8530076BB0E /* XCTest.framework in Frameworks */,
+				B662D50E18DFC8530076BB0E /* UIKit.framework in Frameworks */,
+				B662D50D18DFC8530076BB0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B662D4E618DFC8530076BB0E = {
+			isa = PBXGroup;
+			children = (
+				B662D4F818DFC8530076BB0E /* Donation Controller Demo */,
+				B662D51118DFC8530076BB0E /* Donation Controller DemoTests */,
+				B662D4F118DFC8530076BB0E /* Frameworks */,
+				B662D4F018DFC8530076BB0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B662D4F018DFC8530076BB0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B662D4EF18DFC8530076BB0E /* Donation Controller Demo.app */,
+				B662D50A18DFC8530076BB0E /* Donation Controller DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B662D4F118DFC8530076BB0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B662D4F218DFC8530076BB0E /* Foundation.framework */,
+				B662D4F418DFC8530076BB0E /* CoreGraphics.framework */,
+				B662D4F618DFC8530076BB0E /* UIKit.framework */,
+				B662D50B18DFC8530076BB0E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B662D4F818DFC8530076BB0E /* Donation Controller Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B662D52718DFCAC20076BB0E /* App Delegate */,
+				B662D52618DFCAB00076BB0E /* BTCDonationViewController Class */,
+				B662D50418DFC8530076BB0E /* Images.xcassets */,
+				B662D4F918DFC8530076BB0E /* Supporting Files */,
+			);
+			path = "Donation Controller Demo";
+			sourceTree = "<group>";
+		};
+		B662D4F918DFC8530076BB0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B662D4FA18DFC8530076BB0E /* Donation Controller Demo-Info.plist */,
+				B662D4FB18DFC8530076BB0E /* InfoPlist.strings */,
+				B662D4FE18DFC8530076BB0E /* main.m */,
+				B662D50018DFC8530076BB0E /* Donation Controller Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B662D51118DFC8530076BB0E /* Donation Controller DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B662D51718DFC8530076BB0E /* Donation_Controller_DemoTests.m */,
+				B662D51218DFC8530076BB0E /* Supporting Files */,
+			);
+			path = "Donation Controller DemoTests";
+			sourceTree = "<group>";
+		};
+		B662D51218DFC8530076BB0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B662D51318DFC8530076BB0E /* Donation Controller DemoTests-Info.plist */,
+				B662D51418DFC8530076BB0E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B662D52618DFCAB00076BB0E /* BTCDonationViewController Class */ = {
+			isa = PBXGroup;
+			children = (
+				B662D52118DFC8A90076BB0E /* BTCDonationViewController.h */,
+				B662D52218DFC8A90076BB0E /* BTCDonationViewController.m */,
+				B662D52318DFC8A90076BB0E /* BTCDonationViewController.xib */,
+			);
+			name = "BTCDonationViewController Class";
+			sourceTree = "<group>";
+		};
+		B662D52718DFCAC20076BB0E /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				B662D50118DFC8530076BB0E /* BTCDonationViewControllerAppDelegate.h */,
+				B662D50218DFC8530076BB0E /* BTCDonationViewControllerAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B662D4EE18DFC8530076BB0E /* Donation Controller Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B662D51B18DFC8530076BB0E /* Build configuration list for PBXNativeTarget "Donation Controller Demo" */;
+			buildPhases = (
+				B662D4EB18DFC8530076BB0E /* Sources */,
+				B662D4EC18DFC8530076BB0E /* Frameworks */,
+				B662D4ED18DFC8530076BB0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Donation Controller Demo";
+			productName = "Donation Controller Demo";
+			productReference = B662D4EF18DFC8530076BB0E /* Donation Controller Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B662D50918DFC8530076BB0E /* Donation Controller DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B662D51E18DFC8530076BB0E /* Build configuration list for PBXNativeTarget "Donation Controller DemoTests" */;
+			buildPhases = (
+				B662D50618DFC8530076BB0E /* Sources */,
+				B662D50718DFC8530076BB0E /* Frameworks */,
+				B662D50818DFC8530076BB0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B662D51018DFC8530076BB0E /* PBXTargetDependency */,
+			);
+			name = "Donation Controller DemoTests";
+			productName = "Donation Controller DemoTests";
+			productReference = B662D50A18DFC8530076BB0E /* Donation Controller DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B662D4E718DFC8530076BB0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BTCDonationViewController;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = bennyguitar;
+				TargetAttributes = {
+					B662D50918DFC8530076BB0E = {
+						TestTargetID = B662D4EE18DFC8530076BB0E;
+					};
+				};
+			};
+			buildConfigurationList = B662D4EA18DFC8530076BB0E /* Build configuration list for PBXProject "Donation Controller Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B662D4E618DFC8530076BB0E;
+			productRefGroup = B662D4F018DFC8530076BB0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B662D4EE18DFC8530076BB0E /* Donation Controller Demo */,
+				B662D50918DFC8530076BB0E /* Donation Controller DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B662D4ED18DFC8530076BB0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B662D4FD18DFC8530076BB0E /* InfoPlist.strings in Resources */,
+				B662D52518DFC8A90076BB0E /* BTCDonationViewController.xib in Resources */,
+				B662D50518DFC8530076BB0E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B662D50818DFC8530076BB0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B662D51618DFC8530076BB0E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B662D4EB18DFC8530076BB0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B662D4FF18DFC8530076BB0E /* main.m in Sources */,
+				B662D50318DFC8530076BB0E /* BTCDonationViewControllerAppDelegate.m in Sources */,
+				B662D52418DFC8A90076BB0E /* BTCDonationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B662D50618DFC8530076BB0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B662D51818DFC8530076BB0E /* Donation_Controller_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B662D51018DFC8530076BB0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B662D4EE18DFC8530076BB0E /* Donation Controller Demo */;
+			targetProxy = B662D50F18DFC8530076BB0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B662D4FB18DFC8530076BB0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B662D4FC18DFC8530076BB0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B662D51418DFC8530076BB0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B662D51518DFC8530076BB0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B662D51918DFC8530076BB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B662D51A18DFC8530076BB0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B662D51C18DFC8530076BB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Donation Controller Demo/Donation Controller Demo-Prefix.pch";
+				INFOPLIST_FILE = "Donation Controller Demo/Donation Controller Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B662D51D18DFC8530076BB0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Donation Controller Demo/Donation Controller Demo-Prefix.pch";
+				INFOPLIST_FILE = "Donation Controller Demo/Donation Controller Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B662D51F18DFC8530076BB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Donation Controller Demo.app/Donation Controller Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Donation Controller Demo/Donation Controller Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Donation Controller DemoTests/Donation Controller DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B662D52018DFC8530076BB0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Donation Controller Demo.app/Donation Controller Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Donation Controller Demo/Donation Controller Demo-Prefix.pch";
+				INFOPLIST_FILE = "Donation Controller DemoTests/Donation Controller DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B662D4EA18DFC8530076BB0E /* Build configuration list for PBXProject "Donation Controller Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B662D51918DFC8530076BB0E /* Debug */,
+				B662D51A18DFC8530076BB0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B662D51B18DFC8530076BB0E /* Build configuration list for PBXNativeTarget "Donation Controller Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B662D51C18DFC8530076BB0E /* Debug */,
+				B662D51D18DFC8530076BB0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B662D51E18DFC8530076BB0E /* Build configuration list for PBXNativeTarget "Donation Controller DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B662D51F18DFC8530076BB0E /* Debug */,
+				B662D52018DFC8530076BB0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B662D4E718DFC8530076BB0E /* Project object */;
+}
