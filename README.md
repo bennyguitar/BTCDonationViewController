@@ -40,15 +40,15 @@ However, you may want to customize even further. This leaves us with the `option
 
 ```objc
 NSDictionary *uiOptions = @{kBTCDonationUIKeyBackgroundColor:[UIColor emeraldColor],
-                                kBTCDonationUIKeyQRColor:[UIColor whiteColor],
-                                kBTCDonationUIKeyHeaderTopTextColor:[UIColor whiteColor],
-                                kBTCDonationUIKeyHeaderTopTextFont:[UIFont fontWithName:@"Futura" size:36.0f],
-                                kBTCDonationUIKeyHeaderBottomTextColor:[UIColor whiteColor],
-                                kBTCDonationUIKeyHeaderBottomTextFont:[UIFont fontWithName:@"Futura" size:18.0f],
-                                kBTCDonationUIKeyFooterTextColor:[UIColor whiteColor],
-                                kBTCDonationUIKeyFooterTextFont:[UIFont fontWithName:@"Futura" size:18.0f],
-                                kBTCDonationUIKeyAddressLinkColor:[UIColor whiteColor],
-                                kBTCDonationUIKeyAddressLinkFont:[UIFont fontWithName:@"Futura" size:14.0f]};
+                            kBTCDonationUIKeyQRColor:[UIColor whiteColor],
+                            kBTCDonationUIKeyHeaderTopTextColor:[UIColor whiteColor],
+                            kBTCDonationUIKeyHeaderTopTextFont:[UIFont fontWithName:@"Futura" size:36.0f],
+                            kBTCDonationUIKeyHeaderBottomTextColor:[UIColor whiteColor],
+                            kBTCDonationUIKeyHeaderBottomTextFont:[UIFont fontWithName:@"Futura" size:18.0f],
+                            kBTCDonationUIKeyFooterTextColor:[UIColor whiteColor],
+                            kBTCDonationUIKeyFooterTextFont:[UIFont fontWithName:@"Futura" size:18.0f],
+                            kBTCDonationUIKeyAddressLinkColor:[UIColor whiteColor],
+                            kBTCDonationUIKeyAddressLinkFont:[UIFont fontWithName:@"Futura" size:14.0f]};
 BTCDonationViewController *vc = [BTCDonationViewController newControllerWithBTCAddress:kDeveloperBTCAddress options:uiOptions];
 ```
 
