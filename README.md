@@ -8,7 +8,7 @@
 
 ## Using
 
-`BTCDonationViewController` is very simple to work with, you only need to make one call to get your View Controller, and then you can push to the navigation stack or display however you want.
+`BTCDonationViewController` is very simple to work with, you only need to make one call to get your View Controller, and then you can push to the navigation stack or display however you want. Just make sure you `#import <BTCDonationViewController.h>` in the class you want to use this in.
 
 `BTCDonationViewController *btcVC = [BTCDonationViewController newControllerWithBTCAddress:@"1LvoCg2axTrjgmGN6qT9kKXTA1M3ckBKJL" options:nil];`
 
@@ -60,9 +60,15 @@ To customize this even further, you can add properties and manipulate the includ
 
 ## What's Left
 
+**Bugs**
+
 `0.1.0`
 
-I've noticed that it's fairly slow on an iPhone 5C, so there may be some ways to make this even faster. My guess is that the root of the problem is in one of the [`BGUtilities`](https://github.com/bennyguitar/BGUtilities) UIImage category methods.
+I've noticed that it's a little slow on a device, so there may be some ways to make this even faster. My guess is that the root of the problem is in one of the [`BGUtilities`](https://github.com/bennyguitar/BGUtilities) UIImage category methods necessary for creating the QR code, and manipulating the pixel colors. I'm wondering if the best option is to keep a placeholder image for the QR code while it loads from a background thread to keep app responsiveness as snappy as possible.
+
+**iPad**
+
+There is no native iPad support, so an iPad ViewController version of this should be available in the future too.
 
 ## Demo
 
