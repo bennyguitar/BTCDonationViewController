@@ -10,6 +10,8 @@
                 <outlet property="footerLabel" destination="Deb-VC-Cvi" id="eo9-u0-TOe"/>
                 <outlet property="headerBottomLabel" destination="0rt-8F-0ER" id="9fr-Of-gIa"/>
                 <outlet property="headerTopLabel" destination="K5s-XE-hjO" id="6z2-bU-qJb"/>
+                <outlet property="qrImageBottomConstraint" destination="4du-pT-2RM" id="bAP-zD-u5t"/>
+                <outlet property="qrImageTopConstraint" destination="WcP-xS-uVN" id="jHP-f6-Eam"/>
                 <outlet property="qrImageView" destination="apx-z1-0De" id="vRl-KS-zyd"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -77,11 +79,9 @@
                 <constraint firstItem="apx-z1-0De" firstAttribute="top" secondItem="0rt-8F-0ER" secondAttribute="bottom" constant="60" id="WcP-xS-uVN"/>
                 <constraint firstItem="apx-z1-0De" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="ZOt-In-G9Z"/>
                 <constraint firstItem="0rt-8F-0ER" firstAttribute="top" secondItem="K5s-XE-hjO" secondAttribute="bottom" constant="8" id="c3U-KQ-T3e"/>
-                <constraint firstItem="apx-z1-0De" firstAttribute="top" secondItem="0rt-8F-0ER" secondAttribute="bottom" constant="60" id="leF-uT-zYN"/>
                 <constraint firstItem="Deb-VC-Cvi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="qYB-m7-qfi"/>
                 <constraint firstItem="9gR-hP-jT8" firstAttribute="top" secondItem="Deb-VC-Cvi" secondAttribute="bottom" constant="3" id="saO-4N-Hfi"/>
                 <constraint firstItem="9gR-hP-jT8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="6" id="yxt-6F-zaV"/>
-                <constraint firstItem="Deb-VC-Cvi" firstAttribute="top" secondItem="apx-z1-0De" secondAttribute="bottom" constant="70" id="zbr-yC-DYw"/>
             </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>

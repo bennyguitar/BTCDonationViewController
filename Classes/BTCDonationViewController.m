@@ -48,6 +48,8 @@ NSString * const kBTCDonationUIKeyQRColor = @"kBTCDonationUIKeyQRColor";
 @property (weak, nonatomic) IBOutlet UILabel *headerTopLabel;
 @property (weak, nonatomic) IBOutlet UILabel *headerBottomLabel;
 @property (weak, nonatomic) IBOutlet UILabel *footerLabel;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *qrImageTopConstraint;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *qrImageBottomConstraint;
 // Data
 @property (nonatomic, strong) NSString *btcAddress;
 @property (nonatomic, strong) NSDictionary *uiOptions;
@@ -119,6 +121,14 @@ NSString * const kBTCDonationUIKeyQRColor = @"kBTCDonationUIKeyQRColor";
     
     // Set Background
     [self.view setBackgroundColor:backgroundColor];
+    
+    // Resize if necessary
+    if ([BGSystemUtilities screenHeight] == 480) {
+        //3.5in screen
+        float offsetAmount = 88;
+        [self.qrImageTopConstraint setConstant:self.qrImageTopConstraint.constant - offsetAmount/2];
+        [self.qrImageBottomConstraint setConstant:self.qrImageBottomConstraint.constant - offsetAmount/2];
+    }
     
 }
 
