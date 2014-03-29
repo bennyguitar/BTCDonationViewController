@@ -49,7 +49,7 @@ NSDictionary *uiOptions = @{kBTCDonationUIKeyBackgroundColor:[UIColor emeraldCol
                                 kBTCDonationUIKeyFooterTextFont:[UIFont fontWithName:@"Futura" size:18.0f],
                                 kBTCDonationUIKeyAddressLinkColor:[UIColor whiteColor],
                                 kBTCDonationUIKeyAddressLinkFont:[UIFont fontWithName:@"Futura" size:14.0f]};
-    BTCDonationViewController *vc = [BTCDonationViewController newControllerWithBTCAddress:kDeveloperBTCAddress options:uiOptions];
+BTCDonationViewController *vc = [BTCDonationViewController newControllerWithBTCAddress:kDeveloperBTCAddress options:uiOptions];
 ```
 
 ![Fig2](/Images/figure2-01.png)
