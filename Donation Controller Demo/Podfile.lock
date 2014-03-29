@@ -1,0 +1,13 @@
+PODS:
+  - BGUtilities (1.2.1):
+    - Colours
+  - Colours (5.2.1)
+
+DEPENDENCIES:
+  - BGUtilities
+
+SPEC CHECKSUMS:
+  BGUtilities: add39ebfde7c1429f68371539c73f2873d08d5e5
+  Colours: f26e8eef024a94feaa700155e1e80a5bc41fdd3b
+
+COCOAPODS: 0.29.0

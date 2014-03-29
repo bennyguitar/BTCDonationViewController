@@ -1,4 +1,4 @@
-// Copyright (C) 2014 by Benjamin Gordon
+// Copyright (C) 2013 by Benjamin Gordon
 //
 // Permission is hereby granted, free of charge, to any
 // person obtaining a copy of this software and
@@ -20,10 +20,24 @@
 // ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#import <UIKit/UIKit.h>
+#import "BGSystemUtilities.h"
 
-@interface BTCDonationViewControllerAppDelegate : UIResponder <UIApplicationDelegate>
+@implementation BGSystemUtilities
 
-@property (strong, nonatomic) UIWindow *window;
+#pragma mark - Screen Width/Height
++ (float)screenWidth {
+    return UIDeviceOrientationIsLandscape([[UIApplication sharedApplication] statusBarOrientation]) ? [UIScreen mainScreen].bounds.size.height : [UIScreen mainScreen].bounds.size.width;
+}
+
++ (float)screenHeight {
+    return UIDeviceOrientationIsLandscape([[UIApplication sharedApplication] statusBarOrientation]) ? [UIScreen mainScreen].bounds.size.width : [UIScreen mainScreen].bounds.size.height;
+}
+
+
+#pragma mark - System Version
++ (float)iOSVersion {
+    return [[[UIDevice currentDevice] systemVersion] floatValue];
+}
+
 
 @end

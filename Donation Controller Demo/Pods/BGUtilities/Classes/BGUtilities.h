@@ -1,4 +1,4 @@
-// Copyright (C) 2014 by Benjamin Gordon
+// Copyright (C) 2013 by Benjamin Gordon
 //
 // Permission is hereby granted, free of charge, to any
 // person obtaining a copy of this software and
@@ -20,10 +20,13 @@
 // ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#import <UIKit/UIKit.h>
+#ifndef BGUtilities_BGUtilities_h
+#define BGUtilities_BGUtilities_h
 
-@interface BTCDonationViewControllerAppDelegate : UIResponder <UIApplicationDelegate>
+#import "NSString+BGStringUtilities.h"
+#import "NSScanner+BGScannerUtilities.h"
+#import "UIView+BGViewUtilities.h"
+#import "BGSystemUtilities.h"
+#import "UIImage+BGImageUtilities.h"
 
-@property (strong, nonatomic) UIWindow *window;
-
-@end
+#endif

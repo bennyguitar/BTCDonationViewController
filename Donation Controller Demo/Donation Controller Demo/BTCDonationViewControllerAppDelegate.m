@@ -1,13 +1,28 @@
+// Copyright (C) 2014 by Benjamin Gordon
 //
-//  BTCDonationViewControllerAppDelegate.m
-//  Donation Controller Demo
+// Permission is hereby granted, free of charge, to any
+// person obtaining a copy of this software and
+// associated documentation files (the "Software"), to
+// deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge,
+// publish, distribute, sublicense, and/or sell copies of the
+// Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
 //
-//  Created by Ben Gordon on 3/23/14.
-//  Copyright (c) 2014 bennyguitar. All rights reserved.
+// The above copyright notice and this permission notice shall
+// be included in all copies or substantial portions of the Software.
 //
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+// EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+// OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+// NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+// BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+// ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+// CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #import "BTCDonationViewControllerAppDelegate.h"
 #import "BTCDonationViewController.h"
+#import <Colours.h>
 
 static NSString * kDeveloperBTCAddress = @"1LvoCg2axTrjgmGN6qT9kKXTA1M3ckBKJL";
 
@@ -18,8 +33,19 @@ static NSString * kDeveloperBTCAddress = @"1LvoCg2axTrjgmGN6qT9kKXTA1M3ckBKJL";
     // Create Donation ViewController
     // - No options uses the stock Xib file
     //BTCDonationViewController *vc = [BTCDonationViewController newControllerWithBTCAddress:kDeveloperBTCAddress options:nil];
-    NSDictionary *uiOptions = @{};
+    NSDictionary *uiOptions = @{kBTCDonationUIKeyBackgroundColor:[UIColor emeraldColor],
+                                kBTCDonationUIKeyQRColor:[UIColor whiteColor],
+                                kBTCDonationUIKeyHeaderTopTextColor:[UIColor whiteColor],
+                                kBTCDonationUIKeyHeaderTopTextFont:[UIFont fontWithName:@"Futura" size:36.0f],
+                                kBTCDonationUIKeyHeaderBottomTextColor:[UIColor whiteColor],
+                                kBTCDonationUIKeyHeaderBottomTextFont:[UIFont fontWithName:@"Futura" size:18.0f],
+                                kBTCDonationUIKeyFooterTextColor:[UIColor whiteColor],
+                                kBTCDonationUIKeyFooterTextFont:[UIFont fontWithName:@"Futura" size:18.0f],
+                                kBTCDonationUIKeyAddressLinkColor:[UIColor whiteColor],
+                                kBTCDonationUIKeyAddressLinkFont:[UIFont fontWithName:@"Futura" size:14.0f]};
     BTCDonationViewController *vc = [BTCDonationViewController newControllerWithBTCAddress:kDeveloperBTCAddress options:uiOptions];
+    
+    // Launch App
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [self.window setRootViewController:vc];
     [self.window makeKeyAndVisible];

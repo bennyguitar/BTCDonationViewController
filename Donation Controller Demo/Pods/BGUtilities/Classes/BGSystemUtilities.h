@@ -1,4 +1,4 @@
-// Copyright (C) 2014 by Benjamin Gordon
+// Copyright (C) 2013 by Benjamin Gordon
 //
 // Permission is hereby granted, free of charge, to any
 // person obtaining a copy of this software and
@@ -20,10 +20,29 @@
 // ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface BTCDonationViewControllerAppDelegate : UIResponder <UIApplicationDelegate>
+@interface BGSystemUtilities : NSObject
 
-@property (strong, nonatomic) UIWindow *window;
+#pragma mark - Screen Width/Height
+/**
+ Returns the screen width for the current orientation. This method uses the [[UIApplication sharedApplication] statusBarOrientation] method to determine screen width. If you manually override that property, it will cause this method to return the wrong information.
+ @returns float
+ */
++ (float)screenWidth;
+
+/**
+ Returns the screen height for the current orientation. This method uses the [[UIApplication sharedApplication] statusBarOrientation] method to determine screen width. If you manually override that property, it will cause this method to return the wrong information.
+ @returns float
+ */
++ (float)screenHeight;
+
+
+#pragma mark - System Version
+/**
+ Returns the current operating system version.
+ @returns float
+ */
++ (float)iOSVersion;
 
 @end
