@@ -84,6 +84,6 @@ This will set up your project with Cocoapods, install the prerequisites, and the
 
 ## Donate
 
-If you'd like to donate BTC, you can do so here:
+If you'd like to support me and my work, you can donate BTC here:
 
 [`1LvoCg2axTrjgmGN6qT9kKXTA1M3ckBKJL`](https://blockchain.info/address/1LvoCg2axTrjgmGN6qT9kKXTA1M3ckBKJL)
