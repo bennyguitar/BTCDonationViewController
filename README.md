@@ -10,7 +10,12 @@
 
 `BTCDonationViewController` is very simple to work with, you only need to make one call to get your View Controller, and then you can push to the navigation stack or display however you want. Just make sure you `#import <BTCDonationViewController.h>` in the class you want to use this in.
 
-`BTCDonationViewController *btcVC = [BTCDonationViewController newControllerWithBTCAddress:@"1LvoCg2axTrjgmGN6qT9kKXTA1M3ckBKJL" options:nil];`
+**Note: Only publish your public key address. Never your private key.**
+
+```objc
+NSString *pubAddress = @"1LvoCg2axTrjgmGN6qT9kKXTA1M3ckBKJL";
+BTCDonationViewController *btcVC = [BTCDonationViewController newControllerWithBTCAddress:pubAddress options:nil];
+```
 
 That's it. This gives you the stock `BTCDonationViewController`.
 
