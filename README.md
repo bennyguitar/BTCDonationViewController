@@ -2,7 +2,7 @@
 
 ## Installing
 
-**Cocoapods (Coming Soon)**
+**Cocoapods**
 
 `pod 'BTCDonationViewController'`
 
