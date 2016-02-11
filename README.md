@@ -2,7 +2,7 @@
 
 ## Installing
 
-**Cocoapods**
+**CocoaPods**
 
 `pod 'BTCDonationViewController'`
 
@@ -77,11 +77,11 @@ There is no native iPad support, so an iPad ViewController version of this shoul
 
 ## Demo
 
-There is a demo project included in this repo. To run it, make sure you have [Cocoapods](http://cocoapods.org/) installed on your machine. Navigate to the directory of the demo project, and run this line in your Terminal:
+There is a demo project included in this repo. To run it, make sure you have [CocoaPods](http://cocoapods.org/) installed on your machine. Navigate to the directory of the demo project, and run this line in your Terminal:
 
 `pod install`
 
-This will set up your project with Cocoapods, install the prerequisites, and then create a `.xcworkspace` file that you will use to build and run the demo.
+This will set up your project with CocoaPods, install the prerequisites, and then create a `.xcworkspace` file that you will use to build and run the demo.
 
 ## License
 
